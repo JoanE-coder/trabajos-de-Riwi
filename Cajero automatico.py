@@ -2,7 +2,7 @@ Salir = False
 Saldo = 0
 Retirar_dinero = 0
 Deposito = 0
-Clave = 12345
+Clave = 1
 
 while not Salir:
 
@@ -18,22 +18,19 @@ while not Salir:
   print ("1. Ver clave    2. Actualizar clave\n")
   print ("3. Volver al menu")
   
-  opcion = int(input("Seleccione una opcion"))
-  if opcion == "1":
-    print (f"Tu claves son{Clave}")
-    
-   
+  opcion = int(input("Seleccione una opcion\n"))
+  if opcion == 1:
+    print (f"Tus claves son: {Clave}\n")
+    while True:
 
-
-    print ("1. Volver al menu     2. Salir \n")
-    sub= input ("Seleccione una opcion")
-    if opcion == "1":
+     print ("1. Volver al menu     2. Salir \n")
+     sub= input ("Seleccione una opcion")
+     if sub == "1":
        break
-    elif opcion == "2":
+     elif sub == "2":
        print ("¡Hasta luego!")
-    Salir = True
+       Salir = True
+       break
+  if opcion == "2":
+       
 
-
-
-
- break
