@@ -32,5 +32,9 @@ while not Salir:
   if opcion == "2":
     break
 
+ elif opcion == "2":
+   print ("Consultas de movimiento\n")
+
+
        
 
