@@ -26,4 +26,4 @@ for i in range (5):
 print("\n=== Resumen De Pedidos ===\n")
 print("Vainilla: ", vainilla)
 print("Chocolate: ", chocolate)  
-print("Fresa: ", fresa)  
+print("Fresa: ", fresa)    

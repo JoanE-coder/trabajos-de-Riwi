@@ -12,3 +12,6 @@ elif mascota == "gato":
 
 elif mascota == "conejo":
     print("Le Recomendamos: Verduras como zanahoria o brócoli")
+
+else:
+    print("No tenemos para esas mascotas")  
