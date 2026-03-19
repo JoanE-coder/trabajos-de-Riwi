@@ -33,4 +33,4 @@ if total > 20000:
     print("\n- Total a pagar: ", total_final)
 
 else:
-    print("\n-Total a pagar: ". total)        
+    print("\n-Total a pagar: ", total)        
