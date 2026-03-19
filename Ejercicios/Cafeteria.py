@@ -13,10 +13,13 @@ cantidad = int(input("¿Que cantidad desea?: "))
 
 if bebida == "cafe":
      total = cafe * cantidad
+
 elif bebida == "te":
     total = té * cantidad 
+
 elif bebida == "jugo":
     total = jugo * cantidad
+    
 else:
     print("Bebida no disponible")
     total = 0
